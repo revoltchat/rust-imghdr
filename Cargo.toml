@@ -1,11 +1,11 @@
 [package]
-name = "imghdr"
+name = "revolt_imghdr"
 version = "0.7.0"
 authors = ["svartalf <self@svartalf.info>"]
 description = "Library that determines the type of image contained in a file or byte stream."
 keywords = ["image", "gif", "jpeg", "png", "webp"]
 categories = ["multimedia::images"]
-repository = "https://github.com/svartalf/rust-imghdr"
+repository = "https://github.com/revoltchat/rust-imghdr"
 license = "Apache-2.0 OR MIT"
 edition = "2018"
 readme = "README.md"
@@ -30,4 +30,3 @@ harness = false
 
 [badges]
 maintenance = { status = "passively-maintained" }
-travis-ci = { repository = "svartalf/rust-imghdr", branch = "master" }
